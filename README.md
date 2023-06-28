@@ -14,42 +14,47 @@ The `express-ts-api-generator` package is a powerful tool designed to simplify t
 -   CORS support: Easily handle Cross-Origin Resource Sharing (CORS) with the included CORS middleware.
 -   Environment variables: Use dotenv to manage your environment variables effortlessly.
 
-## Installation
-
-You can install the `express-ts-api-generator` package via npm. Run the following command:
-
-```shell
-npm install express-ts-api-generator
-```
-
 ## Usage
 
-To use the `express-ts-api-generator` package, follow these steps:
+To use the cloned `express-ts-api-generator` repository, you can follow these steps:
 
-1. Create a new directory for your project and navigate to it in the command line.
+1. Clone the repository to your local machine:
 
-2. Run the following command to generate a new TypeScript-based Express API project:
+    ```shell
+    git clone https://github.com/clebertmarctyson/express-ts-api-generator.git
+    ```
 
-```shell
-npx express-ts-api-generator
-```
+2. Rename the cloned directory to your preferred project name:
 
-3. After the project is generated, navigate into the project directory and install the dependencies:
+    ```shell
+    mv express-ts-api-generator your-project-name
+    ```
 
-```shell
-cd your-project-name
-npm install
-```
+3. Navigate to the project directory:
 
-4. Start the development server with the following command:
+    ```shell
+    cd your-project-name
+    ```
 
-```shell
-npm run dev
-```
+4. Install the project dependencies:
 
-5. You can now access your Express API at `http://localhost:3001`.
+    ```shell
+    npm install
+    ```
+
+5. Start the development server:
+
+    ```shell
+    npm run dev
+    ```
+
+6. You can now access your Express API at `http://localhost:3001`.
+
+Make sure to replace `your-project-name` with the desired name for your project. By renaming the directory, you can create a new project with a custom name based on the cloned repository.
 
 ## Scripts
+
+The following scripts are available in the project:
 
 -   `npm run build`: Build the TypeScript source code.
 -   `npm start`: Start the Express API server.
