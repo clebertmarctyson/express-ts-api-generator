@@ -1,0 +1,73 @@
+{
+	"_type": "export",
+	"__export_format": 4,
+	"__export_date": "2023-06-28T17:07:24.785Z",
+	"__export_source": "insomnia.desktop.app:v2023.2.2",
+	"resources": [
+		{
+			"_id": "req_21bdf89349474ea9a0d0ccff8ee84d5d",
+			"parentId": "wrk_22c8f9c171394fcda31f3df4b689fbf7",
+			"modified": 1687971915208,
+			"created": 1687971819409,
+			"url": "{{ _.BASE_URI}}:{{ _.PORT }}/todos",
+			"name": "Get All Todos",
+			"description": "",
+			"method": "GET",
+			"body": {},
+			"parameters": [],
+			"headers": [],
+			"authentication": {},
+			"metaSortKey": -1687971819409,
+			"isPrivate": false,
+			"settingStoreCookies": true,
+			"settingSendCookies": true,
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingFollowRedirects": "global",
+			"_type": "request"
+		},
+		{
+			"_id": "wrk_22c8f9c171394fcda31f3df4b689fbf7",
+			"parentId": null,
+			"modified": 1687971814771,
+			"created": 1687971814771,
+			"name": "Express-Ts-Api-Generator",
+			"description": "",
+			"scope": "collection",
+			"_type": "workspace"
+		},
+		{
+			"_id": "env_df38702a33cedaa73d3739a568a5da3ee6752655",
+			"parentId": "wrk_22c8f9c171394fcda31f3df4b689fbf7",
+			"modified": 1687971867757,
+			"created": 1687971814780,
+			"name": "Base Environment",
+			"data": { "BASE_URI": "http://localhost", "PORT": "3001" },
+			"dataPropertyOrder": { "&": ["BASE_URI", "PORT"] },
+			"color": null,
+			"isPrivate": false,
+			"metaSortKey": 1687971814780,
+			"_type": "environment"
+		},
+		{
+			"_id": "jar_df38702a33cedaa73d3739a568a5da3ee6752655",
+			"parentId": "wrk_22c8f9c171394fcda31f3df4b689fbf7",
+			"modified": 1687971814785,
+			"created": 1687971814785,
+			"name": "Default Jar",
+			"cookies": [],
+			"_type": "cookie_jar"
+		},
+		{
+			"_id": "spc_df083e4f2d8049559646f0eae20bf0b2",
+			"parentId": "wrk_22c8f9c171394fcda31f3df4b689fbf7",
+			"modified": 1687971814772,
+			"created": 1687971814772,
+			"fileName": "Express-Ts-Api-Generator",
+			"contents": "",
+			"contentType": "yaml",
+			"_type": "api_spec"
+		}
+	]
+}

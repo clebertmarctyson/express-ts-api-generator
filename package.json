@@ -1,0 +1,56 @@
+{
+	"name": "express-ts-api-generator",
+	"version": "1.0.0",
+	"description": "The express-ts-api-generator package is a powerful tool designed to simplify the process of starting a Node.js Express API project using TypeScript. It provides a convenient way to scaffold the project structure, configure TypeScript settings, and set up essential components such as routes, controllers, and middleware.",
+	"main": "src/index.ts",
+	"scripts": {
+		"build": "tsc",
+		"start": "node dist/src/index.js",
+		"dev": "nodemon",
+		"test": "jest",
+		"test:coverage": "jest --coverage",
+		"test:watch": "jest --watch"
+	},
+	"keywords": [
+		"Express",
+		"TypeScript",
+		"API",
+		"Node.js",
+		"Generator",
+		"Starter",
+		"Boilerplate"
+	],
+	"author": "clebertmarctyson <marctysonclebert9@gmail.com>",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/clebertmarctyson/express-ts-api-generator.git"
+	},
+	"license": "MIT",
+	"devDependencies": {
+		"@types/cors": "^2.8.13",
+		"@types/express": "^4.17.17",
+		"@types/jest": "^29.5.2",
+		"@types/node": "^20.3.2",
+		"@typescript-eslint/eslint-plugin": "^5.60.1",
+		"@typescript-eslint/parser": "^5.60.1",
+		"eslint": "^8.43.0",
+		"eslint-config-airbnb-base": "15.0.0",
+		"eslint-config-node": "^4.1.0",
+		"eslint-config-prettier": "^8.8.0",
+		"eslint-plugin-import": "^2.25.2",
+		"eslint-plugin-node": "^11.1.0",
+		"eslint-plugin-prettier": "^4.2.1",
+		"jest": "^29.5.0",
+		"nodemon": "^2.0.22",
+		"prettier": "^2.8.8",
+		"ts-jest": "^29.1.0",
+		"ts-node": "^10.9.1",
+		"typescript": "^5.1.5"
+	},
+	"dependencies": {
+		"chalk": "^5.2.0",
+		"cors": "^2.8.5",
+		"dotenv": "^16.3.1",
+		"express": "^4.18.2"
+	}
+}
